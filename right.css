@@ -1,0 +1,120 @@
+body main .right{
+    padding-left: 20px;
+    padding-right: 50px;
+    overflow-y: auto;
+}
+
+
+body main .right .search input{
+    position: relative;
+    /* margin-left: 30px; */
+    margin-top: 7px;
+    padding: 12px;
+   
+    border:none;
+    background-color: rgb(233, 239, 243);
+    /* border: 1px solid rgb(81, 132, 226); */
+    border-radius: 30px;
+    font-size: 15px;
+    width: 330px;
+}
+body main .right .search{
+    padding-bottom: 5px;
+    position: fixed;
+    height:50px;
+    width: 100%;
+    background-color: white;
+}
+main .right .b1{
+    border-radius: 13px;
+    margin-top: 70px;
+   width: 330px;
+   background-color: rgb(233, 239, 243);    
+padding-bottom: 20px;
+}
+main .right .b1 .happ{
+
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 20px;
+    height: 40px;  
+}
+.l1:hover{
+    background-color: silver;
+}
+main .right .b1 .l1{
+    cursor: pointer;
+    padding-left: 10px;
+    display: flex;
+    height: 90px;
+    /* background-color: chartreuse; */
+}
+main .right .b1 .l1 .t1{
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 80px;
+    width:250px;
+
+}
+main .right .b1 .l1 .m1{
+    margin-right: 10px;
+    margin-top: 7px;
+    height:75px;
+    width: 70px;
+    background-color: burlywood;
+
+}
+main .right .b2{
+    border-radius: 13px;
+    margin-top: 20px;
+   width: 330px;
+   background-color: rgb(233, 239, 243);    
+padding-bottom: 20px;
+margin-bottom: 70px;
+
+}
+main .right .b2 .flo{
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 20px;
+    height: 40px;
+
+}
+.per:hover{
+    background-color: silver;
+}
+
+main .right .b2 .per{
+    cursor: pointer;
+height: 75px;
+display: flex;
+padding-top: 15px;
+}
+
+main .right .b2 .per .pp img {
+    margin-left: 10px ;
+    border-radius: 50%;
+}
+main .right .b2 .per .nm{
+margin-left: 10px;
+margin-top: 10px;
+margin-bottom: 5px;
+}
+
+main .right .b2 .per .fbx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+ width:100px;
+ border-radius: 20px;
+ background-color: black;
+ margin-left: 20px;
+ margin-top: 10px;
+
+}
+

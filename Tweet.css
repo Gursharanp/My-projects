@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+html ,body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    background-color:#ffffff;
+    display: grid;
+    grid-template-columns: 1.5fr 3fr 1.8fr;
+}
+
+body main .left{
+    margin-left: 50px;
+    border-right: 1px solid lightgray;
+}
+body main .left .bird{
+    margin:10px;
+}
+
+.bird:hover{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(179, 226, 255);
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+.home1:hover{
+    cursor: pointer;
+    background-color: lightgray;
+    height: 25px;   
+    border-radius:20px ;
+    margin-right: 80px;
+}
+body main .left .home1 l{
+    margin-left: 18px;
+}
+body main .left .home1{
+    margin-top: 15px;
+    font-weight: bold;
+    padding: 10px;
+    font-size: larger;
+}
+
+.explore:hover {
+    cursor: pointer;
+    background-color: lightgray;
+    height: 25px;   
+    border-radius:20px ;
+    margin-right: 80px;
+
+}
+body main .left .explore{
+    margin-top: 8px;
+    padding: 10px;
+    font-size: large;
+}
+main .left .explore l{
+    margin-left: 18px;
+}
+
+.notif:hover{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: lightgray;
+    height: 30px;   
+    border-radius:20px ;
+    margin-right: 70px;
+}
+main .left .notif{
+    margin-top: 8px;
+    padding: 8px;
+    font-size: large;
+} 
+main .left .notif l{
+    margin-left:18px;
+}
+
+.message:hover{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: lightgray;
+    height: 30px;   
+    border-radius:20px ;
+    margin-right: 70px;
+}
+main .left .message{
+    margin-top: 8px;
+    padding: 8px;
+    font-size: large;
+} 
+main .left .message l{
+    margin-left: 18px;
+}
+
+.book:hover{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: lightgray;
+    height: 30px;   
+    border-radius:20px ;
+    margin-right: 70px;
+}
+main .left .book{
+    margin-top: 8px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: large;
+} 
+main .left .book l{
+    margin-left: 18px;
+}
+
+.list:hover{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: lightgray;
+    height: 30px;   
+    border-radius:20px ;
+    margin-right: 100px;
+}
+main .left .list{
+    margin-top: 8px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: large;
+} 
+main .left .list l{
+    margin-left: 18px;
+}
+
+.more:hover{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: lightgray;
+    height: 30px;   
+    border-radius:20px ;
+    margin-right: 100px;
+}
+.profile:hover{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: lightgray;
+    height: 30px;   
+    border-radius:20px ;
+    margin-right: 100px;
+}
+main .left .profile{
+    margin-top: 8px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: large;
+} 
+main .left .profile l{
+    
+    margin-left: 18px;
+}
+
+main .left .more{
+    margin-top: 8px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: large;
+} 
+main .left .more l{
+    margin-left: 18px;
+}
+main .left .more i{
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+main .left .tweet {
+    margin-top: 10px;
+    padding: 7px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    margin-right: 40px;
+    border-radius: 20px;
+    font-weight: bolder;
+    color: white;
+    background-color:rgb(21, 109, 241);
+}
+.id:hover{
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+main .left .id .ic{
+    color: white;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 40px;
+    width:40px; 
+    margin-right: 10px;
+    background-color:rgb(21, 109, 241);
+}
+main .left .id .sh{
+    font-weight: 700;
+}
+main .left .id {
+    margin-top: 70px;
+    display: flex;
+}
+
+
+
+body main .right{
+    border-left: 1px solid lightgray;
+}
